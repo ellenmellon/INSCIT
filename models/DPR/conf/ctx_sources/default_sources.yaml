@@ -1,0 +1,5 @@
+# @package _group_
+
+dpr_wiki_inscit:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: retrieval_data/wikipedia/full_wiki_segments.tsv

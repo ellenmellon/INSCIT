@@ -1,0 +1,9 @@
+# @package _group_
+
+inscit_train_all_history:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: retrieval_data/qas/train.tsv
+
+inscit_dev_all_history:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: retrieval_data/qas/dev.tsv

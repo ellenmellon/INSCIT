@@ -1,0 +1,9 @@
+# @package _group_
+
+inscit_train_all_history:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: retrieval_data/train/train.json
+
+inscit_dev_all_history:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: retrieval_data/train/dev.json
