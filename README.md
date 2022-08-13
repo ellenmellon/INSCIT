@@ -259,7 +259,7 @@ python download_resources.py --output_dir=./results --resource_name=baseline_res
 
 ### Human Evaluation
 
-To be updated!
+Check out instructions [here](https://github.com/ellenmellon/INSCIT/tree/main/eval/human_eval)! 
 
 
 ## Citation

@@ -132,7 +132,7 @@ class SampleExperiment(
             approvalRateRequirement,
             numApprovedHITsRequirement,
             localeRequirement,
-            ourQualRequirement
+            // ourQualRequirement
     ),
     autoApprovalDelay = 2592000L,
     assignmentDuration = 3600L // 1 hr
