@@ -1,2 +1,5 @@
 models/*/__pycache__
 models/*/*/__pycache__
+eval/human_eval/amt-human-eval/sample/resources/*
+eval/human_eval/amt-human-eval/workerIds/*
+eval/human_eval/amt-human-eval/README.md

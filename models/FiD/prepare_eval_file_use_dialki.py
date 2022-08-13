@@ -88,6 +88,8 @@ def read_id2response(rg_file):
         id2response = {}
         for pred in predictions:
             response = pred["predictions"][0]
+            if response.strip() = "":
+                response = 'Sorry, I did not find any useful information.'  # default to assume no info found
             id = (pred['conv_id'], int(pred['turn_id']))
             id2response[id] = response
         return id2response
