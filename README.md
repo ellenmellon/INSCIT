@@ -14,7 +14,7 @@ This repo provides the data and code for evaluation as well as baseline models f
 4. [Citation](#citation)
 
 ## Data
-We provide the train and dev sets of INSCIT at the `./data` folder. Test set is currently being hid for the purpose of a potential leaderboard, and **we will post updates soon**!
+We provide the train, dev and test sets of INSCIT at the `./data` folder.
 
 Each data file contains task examples in each conversation, where each example maps to an agent turn and has the following format. "*context*" contains the dialogue history of alternating user and agent utterances. "*prevEvidence*" contains information of evidence passages used in the previous agent turns. "*labels*" contains annotated agent turns with three elements: response type, response utterance and evidence passages. Each example has one or two annotations in the "*labels*" field. Annotation details can be found in Section 4 in the paper. Each evidence passage comes with "*passage_id*" (format: `Wiki_article_name:passage_position`), "*passage_text*" and "*passage titles*" (document title and all parent section titles). We also provide information of the seed article used for triggering the start of each conversation. Example:
 ```
@@ -101,7 +101,7 @@ python prepare_data.py
 ```
 
 #### Training
-Our model is initialized with pretraining on TopioCQA[], which is >30x larger than our training data.
+Our model is initialized with pretraining on TopioCQA, which is >30x larger than our training data.
 Download the pretrained checkpoint from the original TopioCQA repo:
 ```
 python ../../download_resources.py --output_dir=./retrieval_outputs/models/pretrain --resource_name=pretrained_dpr
