@@ -1,0 +1,29 @@
+[
+    {
+        "conv_id": "food_level1_dial24",
+        "turn_id": 5,
+        "context": [
+          "Aside from cow's milk, what other animal milk is used in making cheese?",
+          "Other sources of milk for cheese include goats and sheep's milk.",
+          "Can cheese be made from soy milk?",
+          "Yes,  the main ingredients are nuts, soy milk, and soy yogurt. Common plant-based proteins or vegetable proteins used in vegan cheeses are derived from edible sources of protein, such as soybeans.",
+          "When did people first start making cheese?",
+          "The production of cheese predates recorded history, beginning well over 7,000 years ago. There is no conclusive evidence indicating where cheese-making originated, possibly Europe, or Central Asia, the Middle East, or the Sahara.",
+          "Do all cheeses need to be refrigerated?",
+          "There's the Edam cheese which is a semi-hard cheese that does not spoil, only hardens.",
+          "What are the effects of cheese on health?"
+        ],
+        "output": {
+          "response": "There is no conclusive evidence indicating where cheese-making originated, possibly Europe, or Central Asia, the Middle East, or the Sahara.",
+          "evidence": [
+            {
+              "passage_id": "Yo-yo effect:1",
+              "passage_text": "Yo-yo dieting or yo-yo effect, also known as weight cycling, is a term coined by the public health scholar Kelly D. Brownell, in reference to the cyclical loss and gain of weight, resembling the up-down motion of a yo-yo. In this process, the dieter is initially successful in the pursuit of weight loss but is unsuccessful in maintaining the loss long-term and begins to gain the weight back. The dieter then seeks to lose the regained weight, and the cycle begins again.",
+              "passage_titles": [
+                "Yo-yo effect"
+              ]
+            }
+          ]
+        }
+    }
+]

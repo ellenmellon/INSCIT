@@ -1,0 +1,49 @@
+[
+    {
+        "conv_id": "food_level1_dial24",
+        "turn_id": 5,
+        "context": [
+          "Aside from cow's milk, what other animal milk is used in making cheese?",
+          "Other sources of milk for cheese include goats and sheep's milk.",
+          "Can cheese be made from soy milk?",
+          "Yes,  the main ingredients are nuts, soy milk, and soy yogurt. Common plant-based proteins or vegetable proteins used in vegan cheeses are derived from edible sources of protein, such as soybeans.",
+          "When did people first start making cheese?",
+          "The production of cheese predates recorded history, beginning well over 7,000 years ago. There is no conclusive evidence indicating where cheese-making originated, possibly Europe, or Central Asia, the Middle East, or the Sahara.",
+          "Do all cheeses need to be refrigerated?",
+          "There's the Edam cheese which is a semi-hard cheese that does not spoil, only hardens.",
+          "What are the effects of cheese on health?"
+        ],
+        "output": {
+          "response": "National health organizations like the American Heart Association among others recommend cheese consumption be minimized to reduce factors for cardiovascular diseases. Raw-milk cheeses may cause infectious diseases as well if not aged enough and pregnant women may face extra risks due to listeria risk from soft-ripened cheeses and blue-veined cheeses.",
+          "evidence": [
+            {
+                "passage_id": "Cheese:42",
+                "passage_text": "National health organizations, such as the American Heart Association, Association of UK Dietitians, British National Health Service, and Mayo Clinic, among others, recommend that cheese consumption be minimized, replaced in snacks and meals by plant foods, or restricted to low-fat cheeses to reduce caloric intake and blood levels of HDL fat, which is a risk factor for cardiovascular diseases. There is no high-quality clinical evidence that cheese consumption lowers the risk of cardiovascular diseases.",
+                "passage_titles": [
+                  "Cheese",
+                  "Nutrition and health",
+                  "Cardiovascular disease"
+                ]
+            },
+            {
+                "passage_id": "Cheese:43",
+                "passage_text": "A number of food safety agencies around the world have warned of the risks of raw-milk cheeses. The U.S. Food and Drug Administration states that soft raw-milk cheeses can cause \"serious infectious diseases including listeriosis, brucellosis, salmonellosis and tuberculosis\". It is U.S. law since 1944 that all raw-milk cheeses (including imports since 1951) must be aged at least 60\u00a0days. Australia has a wide ban on raw-milk cheeses as well, though in recent years exceptions have been made for Swiss Gruy\u00e8re, Emmental and Sbrinz, and for French Roquefort. There is a trend for cheeses to be pasteurized even when not required by law.",
+                "passage_titles": [
+                  "Cheese",
+                  "Nutrition and health",
+                  "Pasteurization"
+                ]
+            },
+            {
+                "passage_id": "Cheese:44",
+                "passage_text": "Pregnant women may face an additional risk from cheese; the U.S. Centers for Disease Control has warned pregnant women against eating soft-ripened cheeses and blue-veined cheeses, due to the listeria risk, which can cause miscarriage or harm the fetus.",
+                "passage_titles": [
+                  "Cheese",
+                  "Nutrition and health",
+                  "Pasteurization"
+                ]
+            }
+          ]
+        }
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "conv_id": "food_level1_dial24",
+        "turn_id": 5,
+        "context": [
+          "Aside from cow's milk, what other animal milk is used in making cheese?",
+          "Other sources of milk for cheese include goats and sheep's milk.",
+          "Can cheese be made from soy milk?",
+          "Yes,  the main ingredients are nuts, soy milk, and soy yogurt. Common plant-based proteins or vegetable proteins used in vegan cheeses are derived from edible sources of protein, such as soybeans.",
+          "When did people first start making cheese?",
+          "The production of cheese predates recorded history, beginning well over 7,000 years ago. There is no conclusive evidence indicating where cheese-making originated, possibly Europe, or Central Asia, the Middle East, or the Sahara.",
+          "Do all cheeses need to be refrigerated?",
+          "There's the Edam cheese which is a semi-hard cheese that does not spoil, only hardens.",
+          "What are the effects of cheese on health?"
+        ],
+        "output": {
+          "response": "National health organizations, such as the American Heart Association, Association of UK Dietitians, British National Health Service, and Mayo Clinic, among others, recommend that cheese consumption be minimized, replaced in snacks and meals by plant foods, or restricted to low-fat cheeses to reduce caloric intake and blood levels of HDL fat, which is a risk factor for cardiovascular diseases. There is no high-quality clinical evidence that cheese consumption lowers the risk of cardiovascular diseases.",
+          "evidence": [
+            {
+              "passage_id": "Cheese:42",
+              "passage_text": "National health organizations, such as the American Heart Association, Association of UK Dietitians, British National Health Service, and Mayo Clinic, among others, recommend that cheese consumption be minimized, replaced in snacks and meals by plant foods, or restricted to low-fat cheeses to reduce caloric intake and blood levels of HDL fat, which is a risk factor for cardiovascular diseases. There is no high-quality clinical evidence that cheese consumption lowers the risk of cardiovascular diseases.",
+              "passage_titles": [
+                "Cheese",
+                "Nutrition and health",
+                "Cardiovascular disease"
+              ]
+            }
+          ]
+        }
+    }
+]
