@@ -24,7 +24,7 @@ logger.setLevel(logging.INFO)
 # TODO: replace google links to zenodo if the issue with large file upload gets solved
 RESOURCE_MAP = {
     "wiki_corpus": {
-        "url": "https://drive.google.com/uc?export=download&id=1rwQNmvJIRpBEs58ewcrxczZYPOa0nuQS&confirm=t&uuid=f05ab49b-df8e-4a2e-b551-56be01cfaad8",
+        "url": "https://drive.google.com/uc?export=download&id=1HhWza59mfAYEgsAWZjCVpu1tOCPgVgtN",
         "filename": "corpus.zip",
         "desc": "All processed Wikipedia passages"
     },
@@ -42,7 +42,7 @@ RESOURCE_MAP = {
         "desc": "Retriever DPR model checkpoint pretrained on TopioCQA"
     },
     "dpr": {
-        "url": "https://drive.google.com/uc?export=download&id=1kYWSV1LK0SJn7x793bpgdVNEYKSJH5MQ&confirm=t&uuid=0190781c-89dc-49cd-bafb-91d331b3ccdb",
+        "url": "https://drive.google.com/uc?export=download&id=15LvLcwGC2Ub4elT447fxHRJ5tx5AtnsO",
         "filename": "final_checkpoint",
         "desc": "Retriever DPR model checkpoint finetuned on INSCIT"
     },
@@ -53,7 +53,7 @@ RESOURCE_MAP = {
         "desc": "All DPR result files"
     },
     "fid_no_dialki": {
-        "url": "https://drive.google.com/uc?export=download&id=1Yhpvv9yeNw-bpQEcaOyWFxx9vp8kHUvf&confirm=t&uuid=71790cf5-5005-4bb1-ae1f-cf8f6662c674",
+        "url": "https://drive.google.com/uc?export=download&id=1JY6ijipKoXgqGJTQk-9uU2oGM7sZ8ch7",
         "filename": "checkpoint.zip",
         "desc": "FiD model checkpoint finetuned on INSCIT, with top-50 DPR output as the model input"
     },
@@ -63,7 +63,7 @@ RESOURCE_MAP = {
         "desc": "DIALKI model checkpoint finetuned on INSCIT"
     },
     "fid_use_dialki": {
-        "url": "https://drive.google.com/uc?export=download&id=1DxnYE9UzwoOEjDifJnlcG2cjNGw3j_c6&confirm=t&uuid=95cebc92-2bdf-4654-8f7c-560e201eda57",
+        "url": "https://drive.google.com/uc?export=download&id=1SXOMDW9HmIZwf-t3LFBhF5O_2Krs1EyK",
         "filename": "checkpoint.zip",
         "desc": "FiD model checkpoint finetuned on INSCIT, with DIALKI output as the model input"
     },
